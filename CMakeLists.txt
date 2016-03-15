@@ -130,3 +130,14 @@ target_link_libraries(
   SMHasherSupport
   ${CMAKE_THREAD_LIBS_INIT}
 )
+add_executable(
+  gethash
+  result.cpp
+)
+
+target_link_libraries(
+  gethash
+  SMHasherSupport
+  ${CMAKE_THREAD_LIBS_INIT}
+)
+
